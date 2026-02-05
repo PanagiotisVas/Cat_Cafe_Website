@@ -27,7 +27,7 @@ Since this is a static website, no complex backend setup is required.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/Cat-Cafe-Project.git](https://github.com/YourUsername/Cat-Cafe-Project.git)
+    git clone [https://github.com/PanagiotisVas/Cat_Cafe_Website.git](https://github.com/PanagiotisVas/Cat_Cafe_Website)
     ```
 2.  **Navigate to the folder:**
     ```bash
