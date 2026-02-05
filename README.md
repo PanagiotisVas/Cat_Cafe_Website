@@ -1,0 +1,54 @@
+# ☕🐱 The Cat Café Website
+
+> A modern, responsive, and fully functional website for a fictional Cat Café.
+> **Course:** Web Development | **Eötvös Loránd University, Budapest, Hungary**
+
+## Overview
+This project was developed as a final assignment for the Web Development course. The goal was to build a **complete, modern, and responsive** website from scratch, demonstrating proficiency in frontend technologies and UI/UX design.
+
+The website represents a cozy space where customers can enjoy coffee while interacting with adoptable cats. It features a clean aesthetic, intuitive navigation, and works seamlessly across all device sizes (desktop, tablet, mobile).
+
+## Key Features
+* **📱 Fully Responsive:** Built with a "Mobile-First" approach using CSS Flexbox and Grid. Adapts perfectly to any screen size.
+* **🎨 Modern UI:** Clean typography, consistent color palette, and smooth hover effects.
+* **🐱 Interactive Elements:**
+    * **Cat Gallery:** A showcase of the "staff" (the cats) with hover animations.
+    * **Menu Section:** A structured layout displaying food and drink options.
+    * **Contact Form:** A styled HTML form for reservations or inquiries.
+* **Semantically Correct:** Uses proper HTML5 semantic tags (header, nav, section, footer) for accessibility and SEO.
+
+## 🛠️ Tech Stack
+* **HTML5** - Structure and semantics.
+* **CSS3** - Styling, Flexbox, Grid, and Animations.
+* **JavaScript (Vanilla)** - Simple interactivity (mobile menu toggle, modal windows, etc.).
+* **Google Fonts** - Typography.
+* **Font Awesome** - Icons.
+
+## 🚀 How to Run
+Since this is a static website, no complex backend setup is required.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YourUsername/Cat-Cafe-Project.git](https://github.com/YourUsername/Cat-Cafe-Project.git)
+    ```
+2.  **Navigate to the folder:**
+    ```bash
+    cd Cat-Cafe-Project
+    ```
+3.  **Launch:**
+    Simply open the `index.html` file in your preferred web browser (Chrome, Firefox, Edge).
+
+## 📂 Project Structure
+```text
+├── assets/
+│   ├── images/       # Cat photos, logos, background
+│   └── icons/        # Favicons
+├── css/
+│   ├── style.css     # Main stylesheet
+│   └── responsive.css # Media queries (if separated)
+├── js/
+│   └── script.js     # Interactivity logic
+├── index.html        # Main landing page
+├── menu.html         # Menu page
+├── contact.html      # Contact/Reservation page
+└── README.md
