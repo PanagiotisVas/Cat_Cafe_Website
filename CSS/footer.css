@@ -1,0 +1,84 @@
+/* Footer Styles */
+.site-footer {
+    background-color: #400f57;
+    color: #ffffff;
+    padding: 40px 0 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo .logo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #d7ccc8; /* Light brown */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-contact p,
+.footer-hours p,
+.footer-address p {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+.footer-contact i,
+.footer-hours i,
+.footer-address i {
+    margin-right: 8px;
+    width: 20px;
+    text-align: center;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright {
+    font-size: 14px;
+    color: #d7ccc8; /* Light brown */
+}
+
+/* Font Awesome icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    
+    .footer-logo {
+        justify-content: center;
+    }
+    
+    .footer-title {
+        margin-bottom: 10px;
+    }
+}

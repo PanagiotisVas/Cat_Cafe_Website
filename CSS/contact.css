@@ -1,0 +1,113 @@
+/* Contact Page Specific Styles */
+.contact-card, .booking-card {
+    background-color: #fff;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover, .booking-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact-method:hover {
+    background-color: #e9ecef;
+}
+
+.contact-method i {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    width: 24px;
+    text-align: center;
+}
+
+.opening-hours .day-group {
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.map-container {
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid #dee2e6;
+
+    /* Responsive fallback for aspect ratio */
+    position: relative;
+    padding-bottom: 75%; /* 4:3 aspect ratio */
+    height: 0;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Form styling */
+.form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.form-control, .form-select {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(93, 64, 55, 0.25);
+}
+
+.btn-primary {
+    background-color: #400f57;
+    border-color: #400f57;
+    padding: 0.75rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #260934;
+    border-color: #260934;
+}
+
+/* Radio button styling */
+.radio-group {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.form-check-input {
+    margin-right: 0.5rem;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .contact-card, .booking-card {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Footer adjustments */
+.site-footer {
+    margin-top: 4rem;
+}
