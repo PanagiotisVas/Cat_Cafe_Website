@@ -3,6 +3,10 @@
 > A modern, responsive, and fully functional website for a fictional Cat Café.
 > **Course:** Web Development | **Eötvös Loránd University, Budapest, Hungary**
 
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![University](https://img.shields.io/badge/Context-University%20Project-blue)
+![Tech](https://img.shields.io/badge/Tech-HTML%20%7C%20CSS-orange)
+
 ## Overview
 This project was developed as a final assignment for the Web Development course. The goal was to build a **complete, modern, and responsive** website from scratch, demonstrating proficiency in frontend technologies and UI/UX design.
 
